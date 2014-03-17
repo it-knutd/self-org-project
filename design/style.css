@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300&subset=latin,cyrillic);
 body {color:#000000;background:#42454f;}
-.head{width:1194px;height:76px;background:#fff;
+a:link, a:visited {text-decoration:none; color:#2B59B3;}
+a:hover, a:active {text-decoration:none; color:#4685C6;}
+.head{min-width:886px;max-width:85%;min-height:76px;background:#fff;
 -webkit-border-top-left-radius: 5px;
 -webkit-border-top-right-radius: 5px;
 -moz-border-radius-topleft: 5px;
@@ -13,32 +16,22 @@ border-top-right-radius: 5px;margin:0 auto;}
 .logo:hover{background: url('images/logoh.png');width:246px;height:19px;}
 .topmenu{float:left;margin-left:30px;margin-top:10px;border-left:1px dotted #ccc;}
 
-#footer-logos li {
+#menutop li {
 display: inline;
 }
-#footer-logos a img {
-opacity: 0.3;
+#menutop a img {
+opacity: 0.3;padding:0px 10px 0px 10px;
 }
-#footer-logos a:hover img{opacity: 0.6;-webkit-transition-duration: 0.3s;
+#menutop a:hover img{opacity: 0.6;-webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;}
-
-#slideout {
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-#slideout_inner {opacity:1;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-#slideout:hover {
-  left: 250px;
-}
-#slideout:hover #slideout_inner {
-  left: 0;opacity:1.0;
-}
+#bigredbutton{background:#b9282e;padding:4px 10px 4px 10px;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;text-decoration:none;color:#fff;text-align:center;font-family: 'Open Sans Condensed', sans-serif;font-weight: bold;font-size: 24px;
+-webkit-transition-property: background;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease;}
+#bigredbutton:hover{background:#792f33;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;text-decoration:none;color:#fff;text-align:center;}
