@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300&subset=latin,cyrillic);
-body {color:#000000;background:#42454f;}
+body {color:#000000;background:#42454f;font-family: 'tahoma', sans-serif;font-size: 11px;}
 a:link, a:visited {text-decoration:none; color:#2B59B3;}
 a:hover, a:active {text-decoration:none; color:#4685C6;}
 .head{min-width:886px;max-width:85%;min-height:76px;background:#fff;
@@ -35,3 +35,12 @@ border-radius: 5px;text-decoration:none;color:#fff;text-align:center;font-family
 #bigredbutton:hover{background:#792f33;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;text-decoration:none;color:#fff;text-align:center;}
+.sliderpanel{min-width:886px;max-width:85%;height:304px;background:#ccc;margin:0 auto;}
+.content{min-width:886px;max-width:85%;background:#fff;margin:0 auto;}
+.podval{min-width:886px;max-width:85%;background:#7a7d84;margin:0 auto;height:98px;
+-webkit-border-bottom-right-radius: 7px;
+-webkit-border-bottom-left-radius: 7px;
+-moz-border-radius-bottomright: 7px;
+-moz-border-radius-bottomleft: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;}
