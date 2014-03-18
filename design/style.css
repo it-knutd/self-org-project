@@ -9,12 +9,29 @@ a:hover, a:active {text-decoration:none; color:#4685C6;}
 -moz-border-radius-topright: 5px;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;margin:0 auto;}
-.logo{float:left;margin-left:30px;background: url('images/logo.png');width:246px;height:19px;
+.logo{
+	position: absolute;
+	margin-top: 30px;
+	margin-left:30px;
+	background: url('images/logo.png');
+	width:246px;
+	height:19px;
 -webkit-transition-property: background;
 -webkit-transition-duration: 0.5s;
 -webkit-transition-timing-function: ease;}
 .logo:hover{background: url('images/logoh.png');width:246px;height:19px;}
-.topmenu{float:left;margin-left:30px;margin-top:10px;border-left:1px dotted #ccc;}
+.topmenu{float:left;
+	position: absolute;
+	margin-left:300px;
+	margin-top:15px;
+	border-left:1px dotted #ccc;}
+
+.redbutton{
+	position: absolute;
+	margin-left: 880px;
+	margin-top: 22px;
+
+}
 
 #menutop li {
 display: inline;
